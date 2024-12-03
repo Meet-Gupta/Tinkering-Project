@@ -22,7 +22,7 @@ NTPClient timeClient(ntpUDP, "pool.ntp.org", 0, 60000); // GMT Offset, Update In
 
 const char* ssid = "shubham";
 const char* password = "KOLiya@259";
-const char* apiKey = "AIzaSyAoMLi78A8DL5a1Z-8SmtGVYKibROZOrKk";  // Web API Key from Firebase
+const char* apiKey = "YourAPI";  // Web API Key from Firebase
 const char* projectID = "newp-ca748";      // Project ID from Firebase Console
 
 String documentPath = "info/1234";  // Path to your document
